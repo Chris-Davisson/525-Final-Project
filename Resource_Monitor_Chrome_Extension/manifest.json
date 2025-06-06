@@ -1,0 +1,17 @@
+{
+  "name": "Per-Tab Resource Monitor",
+  "version": "0.1",
+  "manifest_version": 3,
+  "permissions": ["processes", "tabs", "sidePanel"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "CPU Monitor"
+  },
+  "background": {
+    "service_worker": "bg.js",
+    "type": "module"
+  },
+  "side_panel": {
+    "default_path": "panel.html"
+  }
+}

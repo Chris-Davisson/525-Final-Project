@@ -1,0 +1,19 @@
+Building this will only work in Chrome Dev/Canary
+The API I need is chrome.precess and it's flagged "Availability: Dev channel"
+Not allowed on stable Chrome
+
+Chrome does have shift+esc and dev tools that display all this.
+
+Windows resource monitor shows the max frequency. The max individual thread at the time. So single core usage. 
+The current functioning of it shows that it hogs a single core at 100% for 7 seconds. Exactly what I wanted. The
+next step is to log it, make a presentation and explain the steps of expanding it. 
+
+The extension works and even changes color based on usage. It shows the effect of the code, and maybe I should add an animation to show glitching in the demonstration.
+
+Next steps:
+Expand the CPU hog system more. More time to show V8 protections, expand number of web workers to consume more cores. 
+
+Maybe run this on a VM with a single core.
+
+Comment and clean up the code, it's a little unreadable right now. 
+

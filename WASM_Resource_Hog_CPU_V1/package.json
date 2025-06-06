@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "js-beautify": "^1.15.4"
+  },
+  "name": "wasm_resource_hog_cpu_v1",
+  "version": "1.0.0",
+  "main": "hog.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
